@@ -23,8 +23,8 @@
 const rp = require('request-promise');
 const config = require('config');
 
-const api = config.get('stApi.apiUrl');
-const token = config.get('stApi.apiToken');
+const api = 'https://api.smartthings.com/v1';
+const token = process.env.SMARTTHINGS_CLI_TOKEN;
 const program = require('commander');
 const prettyjson = require('prettyjson');
 const prettyjsonOptions = {};
