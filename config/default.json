@@ -1,6 +1,0 @@
-{
-  "stApi": {
-    "apiUrl": "https://api.smartthings.com/v1",
-    "apiToken": "YOUR TOKEN HERE"
-  }
-}
