@@ -21,7 +21,6 @@
 'use strict';
 
 const rp = require('request-promise');
-const config = require('config');
 
 const api = 'https://api.smartthings.com/v1';
 const token = process.env.SMARTTHINGS_CLI_TOKEN;
