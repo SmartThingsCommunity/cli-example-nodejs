@@ -70,3 +70,7 @@ Multiple switches may be specified:
 To turn off all switches:
 
 `sthelper turnoff`
+
+## Additional information
+
+- This example uses the SmartThings API. See the [API documentation](https://smartthings.developer.samsung.com/develop/api-ref/st-api.html) for more information.
