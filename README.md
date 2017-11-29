@@ -10,7 +10,11 @@ An example CLI implementation to get devices and their status, and control Smart
 
 1. Clone or download this repository.
 2. Create a [personal access token](https://account.smartthings.com/create-token) with **all Devices scopes selected**. Copy or store this token in a secure place.
-3. Create an environment variable named `SMARTTHINGS_CLI_TOKEN`, and set its value to your personal access token obtained in step 2).
+3. Create an environment variable named `SMARTTHINGS_CLI_TOKEN`, and set its value to your personal access token obtained in step 2). On MacOS follow below steps:
+	- With your favorite editor open `~/.bash_profile` file.
+	- Add the line `export SMARTTHINGS_CLI_TOKEN=<paste your personal access token here and remove the angle brackets>`.
+	- Save the file, and run `source ~/.bash_profile` on the command line. This should set up the environment variable.
+	- Confirm by executing `env` on the command line; you should see the SMARTTHINGS_CLI_TOKEN in the listing with the personal access token value assigned to it.
 4. Install the CLI: `npm install -g` (alternatively, you may invoke the CLI directly via `node cli.js <commands>`)
 
 ## Usage
