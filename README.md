@@ -9,7 +9,7 @@ An example CLI implementation to get devices and their status, and control Smart
 ## Installation
 
 1. Clone or download this repository.
-2. Create a [personal access token](https://account.smartthings.com/create-token) with **all Devices scopes selected**. Copy or store this token in a secure place.
+2. Create a [personal access token](https://account.smartthings.com/tokens/new) with **all Devices scopes selected**. Copy or store this token in a secure place.
 3. Create an environment variable named `SMARTTHINGS_CLI_TOKEN`, and set its value to your personal access token obtained in step 2).
 4. Install the CLI: `npm install -g` (alternatively, you may invoke the CLI directly via `node cli.js <commands>`)
 
