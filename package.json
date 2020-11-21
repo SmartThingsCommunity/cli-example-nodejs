@@ -1,12 +1,12 @@
 {
-  "name": "st-cli-example",
+  "name": "weather",
   "version": "0.0.1",
-  "description": "An example showing a simple CLI tool for working with SmartThings-connected devices.",
-  "main": "cli.js",
+  "description": "Прогноз погоды в твоем терминале",
+  "main": "weather.js.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "SmartThings",
+  "author": "pen-dev, sasha",
   "license": "Apache-2.0",
   "dependencies": {
     "commander": "^2.11.0",
@@ -15,6 +15,6 @@
     "request-promise": "^4.2.2"
   },
   "bin": {
-    "sthelper": "./cli.js"
+    "weather": "./weather.js"
   }
 }
