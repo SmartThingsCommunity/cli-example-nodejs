@@ -1,12 +1,24 @@
 {
     "weather": {
-        "city": "Moscow",
-        "sun": "-2",
-        "mon": "-1",
-        "tue": "-4",
-        "wed": "-1",
-        "thu": "0",
-        "fri": "1",
-        "sat": "1"
+        "Moscow": {
+            "city": "Moscow",
+            "sun": "-2",
+            "mon": "-1",
+            "tue": "-4",
+            "wed": "-1",
+            "thu": "0",
+            "fri": "1",
+            "sat": "1"
+        },
+        "Petrograd": {
+            "city": "Saint Petersburg",
+            "sun": "-2",
+            "mon": "-1",
+            "tue": "-4",
+            "wed": "-1",
+            "thu": "0",
+            "fri": "1",
+            "sat": "1"
+        }
     }
 }
