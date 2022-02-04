@@ -1,3 +1,7 @@
+# Archived
+
+> :warning: This CLI has been deprecated in favor of the [smartthings-cli](https://github.com/SmartThingsCommunity/smartthings-cli).
+
 # Example - SmartThings Switches CLI
 
 An example CLI implementation to get devices and their status, and control SmartThings-connected switches.
